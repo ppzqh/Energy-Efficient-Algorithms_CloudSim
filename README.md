@@ -30,7 +30,7 @@ Clone the repo and open the *CloudSim* in Idea IntelliJ IDEA.
 - **PowerPolicyComparison.java**: modules/cloudsim/src/main/java/org/cloudbus/cloudsim/power/PowerPolicyComparison.java
 
 - **main function:**
-- `void SyntheticWorkload(double ratio);`
+  - `void SyntheticWorkload(double ratio);`
   - `void PlanetLab(int hostNum);`
 
 
