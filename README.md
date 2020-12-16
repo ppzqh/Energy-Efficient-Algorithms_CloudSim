@@ -1,31 +1,44 @@
+# Energy Efficient Algorithms based on VM Consolidation for Cloud Computing: Comparisons and Evaluations
+
+Source code for several energy efficient algorithms in Cloud Computing implemented by CloudSim.
+
+
+
 ## Algorithm
 
+Base path: modules/cloudsim/src/main/java/org/cloudbus/cloudsim/power/
+
 - MBFD
-  - path: org/cloudbus/cloudsim/power/MyAllocationPolicyMM.java
+  - path: PowerVmAllocationPolicyMBFD.java
 - LOAD
-  - path: org/cloudbus/cloudsim/power/PowerVmAllocationLearningAutomata.java
+  - path: PowerVmAllocationLearningAutomata.java
 - GRANITE
-  - path: org/cloudbus/cloudsim/power/PowerVmAllocationPolicyGRANITE.java
+  - path: PowerVmAllocationPolicyGRANITE.java
 - ACS
-  - path: org/cloudbus/cloudsim/power/PowerVmAllocationPolicyACS_VMC.java
+  - path: PowerVmAllocationPolicyACS_VMC.java
 - THR
-  - path: org/cloudbus/cloudsim/power/PowerVmAllocationPolicyMigrationStaticThreshold.java
+  - path: PowerVmAllocationPolicyMigrationStaticThreshold.java
 - IQR
-  - path: org/cloudbus/cloudsim/power/PowerVmAllocationPolicyMigrationInterQuartileRange.java
+  - path: PowerVmAllocationPolicyMigrationInterQuartileRange.java
 
 
 
-## Run
+## Setup and Run
 
-- **PowerPolicyComparison.java**: org/cloudbus/cloudsim/power/PowerPolicyComparison.java
+Clone the repo and open the *CloudSim* in Idea IntelliJ IDEA.
+
+- **PowerPolicyComparison.java**: modules/cloudsim/src/main/java/org/cloudbus/cloudsim/power/PowerPolicyComparison.java
 
 - **main function:**
-
-  - `void SyntheticWorkload(double ratio);`
-
+- `void SyntheticWorkload(double ratio);`
   - `void PlanetLab(int hostNum);`
 
-    
 
-    
+
+
+## References
+
+**Qiheng Zhou, Minxian Xu, Sukhpal Singh Gill, Chengxi Gao, Wenhong Tian, Chengzhong Xu, Rajkumar Buyya: Energy Efficient Algorithms based on VM Consolidation for Cloud Computing: Comparisons and Evaluations. [CCGRID 2020](https://dblp.org/db/conf/ccgrid/ccgrid2020.html#ZhouXGGT0B20): 489-498**
+
+
 
